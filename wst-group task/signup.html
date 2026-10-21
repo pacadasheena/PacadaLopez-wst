@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="section">
+    <div class="container">
+        <div class="columns is-centered">
+
+            <div class="column is-5">
+
+                <div class="box">
+
+                    <h1 class="title has-text-centered">
+                        Create Account
+                    </h1>
+
+                    <p class="has-text-centered mb-5">
+                        Sign up to get started.
+                    </p>
+
+                    <div id="signupMessage"></div>
+
+                    <form id="signupForm">
+
+                        <div class="field">
+                            <label class="label">Full Name</label>
+
+                            <div class="control">
+                                <input
+                                    id="fullName"
+                                    class="input"
+                                    type="text"
+                                    placeholder="Your full name">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Email</label>
+
+                            <div class="control">
+                                <input
+                                    id="email"
+                                    class="input"
+                                    type="email"
+                                    placeholder="example@email.com">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Username</label>
+
+                            <div class="control">
+                                <input
+                                    id="username"
+                                    class="input"
+                                    type="text"
+                                    placeholder="Choose a username">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Password</label>
+
+                            <div class="control">
+                                <input
+                                    id="password"
+                                    class="input"
+                                    type="password"
+                                    placeholder="Create a password">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Confirm Password</label>
+
+                            <div class="control">
+                                <input
+                                    id="confirmPassword"
+                                    class="input"
+                                    type="password"
+                                    placeholder="Confirm your password">
+                            </div>
+                        </div>
+
+                        <button
+                            class="button is-primary is-fullwidth mt-4"
+                            type="submit">
+                            Sign Up
+                        </button>
+
+                    </form>
+
+                    <p class="has-text-centered mt-5">
+                        Already have an account?
+                        <a href="index.html">Login</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

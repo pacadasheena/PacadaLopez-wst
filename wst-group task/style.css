@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.button {
+    border-radius: 8px;
+}
